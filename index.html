@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">
+            <h1>Venkatesh Sandupatla</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="Grad-Solo.jpg" alt="Your Photo" class="about-photo">
+            <div class="role-text">
+                <p class="typing-animation">Cloud & DevOps</p>
+            </div>
+            <p>
+                Hi, I’m Venkatesh Sandupatla, a DevOps engineer and web development enthusiast with a Master’s degree in Computer Information Science from Saint Louis University. I specialize in AWS, Docker, Kubernetes, Ansible, Terraform, and CI/CD pipelines, and I’m passionate about building scalable systems and automating workflows. I also enjoy diving into Python, JavaScript, and full-stack development to craft seamless user experiences. Whether it’s optimizing cloud infrastructure, automating deployments, or designing responsive web apps, I thrive on turning ideas into reality. Let’s build something amazing together!
+
+
+
+                
+                
+            </p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:youremail@example.com">venkateshsandupatla97@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+1234567890">314-219-9186</a></p>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div class="skills-section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-brands fa-linux"></i>
+                <span>Linux</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git & GitHub</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-aws"></i>
+                <span>AWS</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-google"></i>
+                <span>GCP</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-microsoft"></i>
+                <span>Azure</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-docker"></i>
+                <span>Docker</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-jenkins"></i>
+                <span>Jenkins</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-kubernetes"></i>
+                <span>Kubernetes</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-code-branch"></i>
+                <span>Ansible</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-network-wired"></i>
+                <span>Terraform</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-tools"></i>
+                <span>CI/CD</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <span>Monitoring (Prometheus & Grafana)</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-cards">
+            <div class="experience-card">
+                <h3>Saint Louis University</h3>
+                <p>Role: Graduate Teaching Assistant</p>
+                <br>
+                <p>Duration: January 2023 - December 2024</p>
+                
+            </div>
+            <div class="experience-card">
+                <h3>Wipro</h3>
+                <p>Role: Project Engineer</p>
+                <br>
+                <p>Duration: Sep 2021 - May 2023</p>
+                
+            </div>
+            
+           
+        </div>
+    </section>
+
+  <!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+
+         <!-- Project Card 1 -->
+      <div class="project-card">
+        <h3>Brain Stroke Application - MLOPS</h3>
+        <p>Developed a machine learning-based web application to predict brain stroke risks, leveraging Flask, Docker, and Jenkins for CI/CD automation. Deployed on AWS EKS with Kubernetes for container orchestration and used AWS ECR for secure Docker image storage. The project highlights seamless integration, scaling, and DevOps best practices for efficient deployment.
+
+        </p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, Docker, AWS, Kubernetes, Jenkins, AWS-EKS</p>
+
+        <div class="project-details">
+          <a href="https://medium.com/@venkateshsandupatla03/brain-stroke-prediction-app-fa9a1ffcfa4d" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+            <h3>Ansible Role for Configuring HAProxy Load Balancer
+            </h3>
+            <p>Developed an Ansible playbook to automate the setup of Apache web servers and configure an HAProxy load balancer across multiple EC2 instances. The solution dynamically manages host IPs, ensuring seamless load balancing and scalability. Leveraged Ansible roles for consistent deployment and efficient infrastructure automation.
+    
+            </p>
+            <p><strong>Tech Stack:</strong> Ansible, AWS, GitHub, HAProxy</p>
+            <div class="project-details">
+              <a href="https://medium.com/@venkateshsandupatla03/ansible-playbook-for-configuring-haproxy-f4f1534e5341" target="_blank" class="project-link">View Project</a>
+            </div>
+          </div>
+      <!-- Project Card 3 -->
+      <div class="project-card">
+        <h3>Health Summit Web Application
+        </h3>
+        <p>The Health Summit Web Application streamlines event registrations with a responsive interface, built using HTML, CSS, JavaScript, Node.js, and MongoDB. It securely stores user data, sends automated confirmation emails via Nodemailer, and is deployed on Heroku for real-time accessibility. Future enhancements include payment gateway integration and advanced analytics for user behavior tracking.
+
+        </p>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JS, MongoDB,Heroku</p>
+        <div class="project-details">
+          <a href="https://healthsummit-69bedf3eb01e.herokuapp.com/" target="_blank" class="project-link">Go Live</a>
+        </div>
+      </div>
+  
+         <!-- Project Card 4 -->
+        <div class="project-card">
+                <h3>Automating Hadoop Cluster Setup with Ansible
+
+
+
+                </h3>
+                <p>Automated the configuration and setup of a Hadoop cluster using Ansible, including NameNode and DataNode deployment across multiple VMs. Developed playbooks to install Hadoop, configure cluster services, and manage dynamic node setups, ensuring seamless big data processing. Leveraged Ansible for infrastructure automation, reducing manual effort and ensuring consistent cluster deployment.
+
+
+        
+                </p>
+                <p><strong>Tech Stack:</strong>Ansible, Hadoop, Linux</p>
+                <div class="project-details">
+                  <a href="https://medium.com/@venkateshsandupatla03/configure-hadoop-and-start-cluster-services-using-ansible-playbook-787d1da3616d" target="_blank" class="project-link">View Project</a>
+                </div>
+              </div>
+  
+    
+    </div>
+  </section>
+  
+  
+<!-- Blogs Section -->
+<section id="blogs">
+    <h2>Blogs</h2>
+    <div class="blogs-container">
+      <!-- Blog 1 -->
+      <div class="blog-card">
+        <h3>Adidas Case Study: Kubernetes Transformation
+        </h3>
+        <p>Adidas streamlined its e-commerce platform using Kubernetes, reducing load times by 50% and increasing deployment frequency to 3-4 times daily. The shift to a cloud-native approach with Kubernetes and Prometheus enabled scalable, efficient infrastructure management.
+
+        </p>
+        <a href="https://venkateshsandupatla03.medium.com/use-cases-of-kubernetes-6b7dcea5e58b" class="blog-link" target="_blank">Read Full Blog</a>
+      </div>
+    
+        <!-- Blog 2 -->
+        <div class="blog-card">
+          <h3>Understanding Cloud Computing and AWS: A Case Study on Netflix's Infrastructure
+
+          </h3>
+          <p>This blog explores the fundamentals of cloud computing and AWS, focusing on how Netflix leverages AWS services for scalable, cost-effective streaming to millions globally. The case study highlights AWS's role in ensuring reliability, efficiency, and innovation in Netflix's infrastructure.
+  
+          </p>
+          <a href="https://venkateshsandupatla03.medium.com/lets-discuss-a-few-points-about-cloud-computing-c8fdac7619a" class="blog-link" target="_blank">Read Full Blog</a>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+            <h3>AWS SQS Use Case: RedBus
+
+  
+            </h3>
+            <p>RedBus leveraged AWS SQS to address scalability challenges and streamline intercommunication between external and internal applications. By integrating SQS with AWS services, RedBus was able to handle processing fluctuations efficiently, ensuring high performance and minimizing costs, resulting in an overall cost reduction of 30-40%.
+
+    
+            </p>
+            <a href="https://venkateshsandupatla03.medium.com/use-cases-of-aws-sqs-simple-queue-service-30ca1c74f963" class="blog-link" target="_blank">Read Full Blog</a>
+          </div>
+
+          
+    </div>
+  </section>
+  
+    
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-cards">
+            <div class="education-card">
+                <h3>Master of Science in Computer Information Science</h3>
+                <p>Institution: Saint Louis University</p>
+                <p>Duration: 2023 - 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you're interested in collaborating, feel free to reach out!</p>
+            <p>Email: <strong>venkateshsandupatla97@gmail.com</strong></p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
